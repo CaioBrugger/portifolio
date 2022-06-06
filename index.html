@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shape do Verão | Home</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="area">
+
+        <div class="container">
+            <h1>Shape do Verão</h1>
+
+            <div class="input_area">
+                <h2>Altura(cm)</h2>
+                <input type="number" id="height">
+            </div>
+
+            <div class="input_area">
+                <h2>Peso(Kg)</h2>
+                <input type="number" id="weight">
+            </div>
+
+            <div class="input_area">
+                <h2>Idade</h2>
+                <input type="number" id="age">
+            </div>
+
+            <div class="exercicio_semanal">
+                <h2>Exercício físico semanal </h2>
+                <select name="exercicio_semanal" class="select_input">
+                    <option value="sedentario">Sedentario</option>
+                    <option value="pouco_exercicio">Pouco exercício (1-2 dias/semana)</option>
+                    <option value="medio_exercicio">Medio exercício (3-5 dias/semana)</option>
+                    <option value="alto_exercicio">Alto exercício (6-7 dias/semana)</option>
+                    <option value="atleta_exercicio">Atleta profissional (2x por dia)</option>
+                </select>
+            </div>
+
+            <h2>Gênero </h2>
+            <div class="radio_button">
+                <label>Masculino</label>
+                <input type="radio" name="genero" value="masculino">
+                <label>Feminino</label>
+                <input type="radio" name="genero" value="feminino">
+            </div>
+
+            <h2>Objetivo </h2>
+            <div class="radio_button">
+                <label>Perder</label>
+                <input type="radio" name="objetivo" value="perder">
+                <label>Manter</label>
+                <input type="radio" name="objetivo" value="manter">
+                <label>Ganhar</label>
+                <input type="radio" name="objetivo" value="ganhar">
+            </div>
+
+            <button onclick="calculate()">Calcular</button>
+
+            <p class="txt_resultado" id="text_area"></p>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
