@@ -1,0 +1,1 @@
+Projeto que calcula IMC, Gasto calórico diário e ainda sugere uma opção de macros para realizar sua dieta de acordo com o seu objetivo.
